@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* 手機 */
+footer{
+  background-color: #555;
+  color:#eee;
+  text-align:center;
+  height: 30px;
+  padding:10px 0px;
+  font-size: 20px;
+}
+.item-group{
+  width: 100%;
+  margin:auto;
+  max-width:1400px;
+}
+.banner img{
+  width: 100%;
+}
+.title{
+  background-color: #ccc;
+  margin:0 0 20px;
+  padding:30px 10px;
+}
+.title h2{
+  font-size: 46px;
+  text-align:center;
+}
+.title p{
+  font-size: 20px;
+  text-align:center;
+  }
+.item{
+  margin:0px 10px 40px;
+}
+
+.item .pic img{
+  width: 100%;
+}
+.item .text h3{
+  font-size: 24px;
+}
+.service{
+  padding:40px 0px;
+}
+/* 平板 桌機 */
+@media screen and (min-width:768px){
+  .item-group{
+    display:flex;
+  }
+  .service .item{
+   display:flex;
+   margin:0 10px 0;
+  }
+  .service .item .pic ,.service .item .text{
+    width:50%;
+    margin:0px;
+  }
+  .service .item .text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 20px;
+    
+  }
+}
